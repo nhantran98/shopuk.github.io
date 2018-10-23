@@ -1,0 +1,94 @@
+.title {
+    background: url('../img/ban.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem 0;
+    color: white
+    
+}
+.title h1 {
+    line-height: 2.5rem;
+    
+}
+.title p {
+    line-height: 1.5rem;
+    opacity: .6;
+}
+.lines {
+    background: yellow;
+    margin-bottom: 2rem;
+    color: black
+}
+.lines .breadcrumb {
+    margin-bottom: 0;
+    background: none;
+    padding: .75rem 0;
+}
+.shop figure {
+    border: 1px solid #dfdfdf; 
+    padding: 1rem
+}
+.shop figure:hover {
+    box-shadow: 0 0 20px rgba(179, 179, 179, 0.75);
+    background-color: blue;
+    
+}
+main{
+    background: url('../img/ban.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem 0;
+    
+}
+.shop h2{
+    color: white
+}
+.shop h3{
+    color: yellow
+}
+.price{
+    color: yellow
+}
+.pric{
+    color: white
+}
+figure{
+    background-color: black;
+    
+}
+figure .price {
+    background: red;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    right: 17px;
+    z-index: 9;
+}
+figure .free {
+    background: blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    z-index: 9;
+}
+.last{
+    padding: 10px;
+    color: black;
+    background: url(../img/last.jpg)no-repeat ;
+    background-size: cover;
+    text-align: left 
+
+}
